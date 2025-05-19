@@ -1,0 +1,11 @@
+data_paths:
+  csv: "/dbfs/mnt/data/csv/input.csv"
+  ocr: "/dbfs/mnt/data/ocr/text.txt"
+  images: "/dbfs/mnt/data/images/"
+  output: "/dbfs/mnt/data/output/"
+azure_openai:
+  api_key: "your_azure_openai_api_key"
+  api_version: "2023-07-01-preview"
+  endpoint: "https://your-resource-name.openai.azure.com/"
+report_settings:
+  format: "markdown"
